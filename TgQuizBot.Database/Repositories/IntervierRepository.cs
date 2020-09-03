@@ -1,8 +1,4 @@
 ﻿using NHibernate;
-using NHibernate.Mapping.ByCode.Conformist;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using TgQuizBot.Database.Models;
 
 namespace TgQuizBot.Database.Repositories

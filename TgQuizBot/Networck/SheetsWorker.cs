@@ -6,13 +6,11 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using Telegram.Bot.Requests;
 
 namespace TgQuizBot.Networck
 {
-   public  class SheetsWorker
+    public  class SheetsWorker
     {
 
         public void Send(string[] text)

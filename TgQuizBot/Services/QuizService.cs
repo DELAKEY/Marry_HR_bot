@@ -1,15 +1,9 @@
-﻿using FluentNHibernate.Utils;
-using HtmlAgilityPack;
+﻿using HtmlAgilityPack;
 using Ninject;
-using Renci.SshNet;
-using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net;
-using System.ServiceModel.Channels;
 using System.Text;
-using System.Threading.Tasks;
 using Telegram.Bot;
 using Telegram.Bot.Types;
 using TgQuizBot.Database;
@@ -30,10 +24,8 @@ namespace TgQuizBot.Services
         }
         public void StartQuiz(long chat, int quizid)
         {
-
-
             var user = database.Users.GetByTg(chat);
-
+            
             var inter = new IntervierModel()
             {
                 User = chat

@@ -1,5 +1,4 @@
 ﻿using NHibernate;
-using NHibernate.Linq;
 using NLog;
 using System;
 using System.Collections.Generic;

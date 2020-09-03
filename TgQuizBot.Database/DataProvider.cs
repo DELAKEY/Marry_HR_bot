@@ -2,10 +2,6 @@
 using FluentNHibernate.Cfg.Db;
 using NHibernate.Caches.RtMemoryCache;
 using NHibernate.Tool.hbm2ddl;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using TgQuizBot.Database.Mapping;
 
 namespace TgQuizBot.Database
 {

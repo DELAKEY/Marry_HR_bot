@@ -1,16 +1,7 @@
-﻿using System.Collections.Generic;
-
-using TgQuizBot.Database.Models;
-//using Database.Data.Entities.Results;
+﻿//using Database.Data.Entities.Results;
 //using Database.Data.Repositories;
 using NHibernate;
-using NHibernate.Mapping;
-using NHibernate.Transform;
-using FluentNHibernate.Cfg;
-using NHibernate.Tool.hbm2ddl;
-using TgQuizBot.Database.Mapping;
 using TgQuizBot.Database.Repositories;
-using FluentNHibernate.Cfg.Db;
 
 namespace TgQuizBot.Database
 {
