@@ -183,6 +183,7 @@
     <Content Include="wellcome.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="wellcome_en.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TgQuizBot.Database\TgQuizBot.Database.csproj">

@@ -14,6 +14,7 @@ namespace TgQuizBot.Database
         public QuestRepository Quests { get; private set; }
         public IntervierRepository Interviers { get; private set; }
         public AnswerRepository Answers { get; private set; }
+        public LangRepasitory Langs { get; private set; }
         internal DataBase(ISessionFactory factory)
         {
             _factory = factory;
@@ -22,6 +23,7 @@ namespace TgQuizBot.Database
             Quests = new QuestRepository(factory);
             Interviers = new IntervierRepository(factory);
             Answers = new AnswerRepository(factory);
+            Langs = new LangRepasitory(factory);
         }
     }
 }
